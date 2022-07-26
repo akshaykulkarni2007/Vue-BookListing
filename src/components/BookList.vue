@@ -12,18 +12,18 @@
 
 <script>
 import BookItem from "./BookItem";
-import BookForm from './BookForm'
+import BookForm from "./BookForm"
 
 export default {
-  name: 'BookList',
+  name: "BookList",
   components: { BookItem, BookForm },
   data() {
     return {
-      title: 'All Books',
+      title: "All Books",
       books: [
-        {title: 'Self-Reliance', author: 'Ralph Waldo Emerson'},
-        {title: 'American Gods', author: 'Neil Gaiman'},
-        {title: 'Amusing Ourselves to Death', author: 'Neil Postman'},
+        {title: "Self-Reliance", author: "Ralph Waldo Emerson"},
+        {title: "American Gods", author: "Neil Gaiman"},
+        {title: "Amusing Ourselves to Death", author: "Neil Postman"},
      ]
     }
   },
